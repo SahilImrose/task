@@ -1,0 +1,11 @@
+.topbar p{
+    color: #fff;
+    text-align: center;
+}
+.topbar{
+    background-color: #3772FF;
+    padding: 5px 0;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}

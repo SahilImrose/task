@@ -1,0 +1,97 @@
+.LeftComponent {
+    position: absolute;
+    top: 0px;
+    padding-top: 50px;
+    padding-left: 20PX;
+    right: 20px;
+    border-left: 1px solid #242731;
+    height: 100vh;
+}
+
+.LeftComponent .top .btn {
+    background-color: #353945;
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.LeftComponent .top .btn2 {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #3772FF;
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.LeftComponent .top {
+    display: flex;
+    gap: 10px;
+}
+
+.LeftComponent h3 {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.LeftComponent p {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.LeftComponent .input{
+    background-color: #353945;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius:10px;
+    margin-top: 15px;
+    width: 290px;
+}
+
+.LeftComponent .bottom .btn {
+    background-color: #3772FF;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.LeftComponent .bottom .btn2 {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #242731;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.LeftComponent .bottom {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}

@@ -1,0 +1,167 @@
+.MiddleComponent {
+    margin-left: 20%;
+    position: absolute;
+    top: 50px;
+    width: 700px;
+}
+
+.MiddleComponent .underline-child {
+    background-color: #3772FF;
+    height: 3px;
+    border-radius: 5px;
+}
+
+.MiddleComponent .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MiddleComponent .top .btn {
+    background-color: #353945;
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.MiddleComponent .top .btn div {
+    background-color: #A3E3FF;
+    color: #3772FF;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.MiddleComponent .tutorial {
+    background-color: #ABE8FF;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.MiddleComponent .tutorial-parent {
+    margin-top: 15px;
+    padding: 10px;
+    position: relative;
+}
+
+.MiddleComponent .tutorial .nd {
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+}
+
+.MiddleComponent .tutorial .st {
+    color: #000;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    left: 40px;
+}
+
+.MiddleComponent .tutorial .nd img {
+    height: 105px;
+}
+
+.MiddleComponent .tutorial .st .btn {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.MiddleComponent .rewards {
+    background-color: #191B20;
+    height: 100px;
+    border-radius: 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    padding: 50px 40px;
+    justify-content: space-between;
+}
+
+.MiddleComponent .rewards p {
+    font-size: 18px;
+}
+
+.MiddleComponent .rewards .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.MiddleComponent .rewards .text .btn {
+    background-color: #353945;
+    color: #fff;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.MiddleComponent .rewards .btn2 {
+    background-color: #3772FF;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+.MiddleComponent .refral-parent{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+.MiddleComponent .refral {
+    background-color: #14161A;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.MiddleComponent .refral .input{
+    background-color: #353945;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius:10px;
+    width: 290px;
+}
+
+.MiddleComponent .refral .first {
+    display: flex;
+    gap: 10px;
+}
+.MiddleComponent .refral p {
+color: #808191;
+}
+
+.MiddleComponent .rewards .text .btn:nth-child(1) {
+    margin-left: 0px;
+}
+.MiddleComponent .underline-child2 {
+    background-color: #3772FF;
+    height: 3px;
+    width: 100px;
+    border-radius: 5px;
+}
